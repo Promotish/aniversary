@@ -17,7 +17,7 @@ setTimeout(init, 1000);
 
 var odrag = document.getElementById('drag-container');
 var ospin = document.getElementById('spin-container');
-var aImg = ospin.getElementsByTagName('https://i.ibb.co/bQszpcc/');
+var aImg = ospin.getElementsByTagName('img');
 var aVid = ospin.getElementsByTagName('video');
 var aEle = [...aImg, ...aVid]; // combine 2 arrays
 
